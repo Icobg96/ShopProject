@@ -21,9 +21,9 @@
 <script type="text/javascript" src="js/bootstrap.js"></script>
 
 </head>
-<body style="background-color: lightgrey; " >
+<body style="background-color: lightgray; " >
 
-<nav class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-inverse " style="opacity: 0.9;">
+<nav class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-inverse p-3 " style="opacity: 0.9;">
 
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -56,15 +56,15 @@
   </div>
     </nav>
 
-<div class="row mt-6" >
- <div class="col-2 bg-inverse "  style="min-height: 700px; opacity: 0.9;">
+<div class="row mt-6 ml-5" >
+ <div class="col-2 bg-faded "  style="min-width: 85px; min-height: 700px; opacity: 0.9;">
 
-<nav class="nav navbar-light navbar-toggleable-sm bg-inverse">
-                <button class="navbar-toggler navbar-toggler-right " type="button" data-toggle="collapse" data-target="#navbarWEX" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="nav navbar-light navbar-toggleable-sm bg-faded">
+                <button class="navbar-toggler navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarWEX" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse flex-column mt-md-0 mt-4 pt-md-0 pt-4" id="navbarWEX">
-  <ul class="nav flex-column bg-inverse text-success"  >
+  <ul class="nav flex-column bg-faded text-success"  >
   <li class="nav-item">
     <a class="nav-link active text-success" href="#">Active</a>
   </li>
@@ -78,7 +78,7 @@
         <a class="nav-link dropdown-toggle text-success" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown link
         </a>
-        <div class="dropdown-menu bg-inverse" aria-labelledby="navbarDropdownMenuLink">
+        <div class="dropdown-menu bg-faded" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item text-success" href="#">Action</a>
           <a class="dropdown-item text-success" href="#">Another action</a>
           <a class="dropdown-item text-success" href="#">Something else here</a>
@@ -89,15 +89,14 @@
    </div>
 </nav>
   </div>
-  <div class="col-10 container" style="min-height: 700px;">@yield('content')</div>
+  <div class="col-9 container" style="min-height: 700px;" >@yield('content')</div>
 </div>
 
 
-<nav class="navbar navbar-toggleable-md-center navbar-inverse bg-inverse" style="outline: 0.9;" >
-	<div align="center">
-	<h1 style=" color: red;" >Hristo Ispirov</h1>
-     </div>
-    </nav>
+<footer class="bg-inverse align-items-center p-3">
+  <div class="text-danger align-items-center" align="center"> Hristo Ispirov</div>
+
+</footer>
 
     
 

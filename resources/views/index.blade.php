@@ -7,7 +7,7 @@
 @section('content')
 
 	
-<h1>Hello in my first php site</h1>
+<h1 class="h1">Hello in my first php site</h1>
 
 
 @endsection
