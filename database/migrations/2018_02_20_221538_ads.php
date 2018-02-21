@@ -37,4 +37,5 @@ class Ads extends Migration
     {
         //
     }
+    
 }
