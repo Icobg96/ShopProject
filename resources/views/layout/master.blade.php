@@ -7,18 +7,7 @@
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
- 
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/bootstrap-grid.css" rel="stylesheet">
-<link href="css/bootstrap-reboot.css" rel="stylesheet">
-<link href="css/bootstrap-reboot.min.css" rel="stylesheet">
-
-<link href="css/bootstrap.css" rel="stylesheet">
- <script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script> -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 <link href="css/style.css" rel="stylesheet">
 
@@ -64,26 +53,10 @@
                 </button>
                 <div class="navbar-collapse collapse flex-column mt-md-0 mt-4 pt-md-0 pt-4" id="navbarWEX">
   <ul class="nav flex-column bg-faded text-success"  >
-  <li class="nav-item">
-    <a class="nav-link active text-success" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-success" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-success" href="#">Link</a>
-  </li>
-  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-success" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu bg-faded" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item text-success" href="#">Action</a>
-          <a class="dropdown-item text-success" href="#">Another action</a>
-          <a class="dropdown-item text-success" href="#">Something else here</a>
+      @section('CategorisMenu')
 
-        </div>
-      </li>
+      @show
+
 </ul>
    </div>
 </nav>
@@ -101,8 +74,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-<!-- <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
+
 </body>
 </html>
