@@ -17,13 +17,13 @@ class Ads extends Migration
             $table->increments('id');
             $table->string('title');
             $table->double('price');
-            $table->text('discription')->nullable();
+            $table->text('description')->nullable();
             $table->string('imagePath')->nullable();
-            $table->datetime('add_date');
             $table->integer('user_id')->unsigned();
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->integer('category_id')->unsigned();
-            $table->foreign('category_id')->references('id')->on('categories');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->integer('sub_category_id')->unsigned()->nullable();
+            $table->foreign('sub_category_id')->references('id')->on('sub_categories')->onDelete('set null');
+            $table->timestamps();
             $table->engine='InnoDB';
 
         });
