@@ -24,3 +24,7 @@ Route::get('/login',function() {
 Route::get('/register',function() {
 	return view('Login.register');
 });
+
+Route::get('/ad',function() {
+	return view('ads.ad');
+});

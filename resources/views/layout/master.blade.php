@@ -12,7 +12,7 @@
 <link href="css/style.css" rel="stylesheet">
 
 </head>
-<body style="background-color: lightgray; " >
+<body style="" >
 
 <nav class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-inverse p-3 " style="opacity: 0.9;">
 
@@ -66,7 +66,7 @@
 
 
 <footer class="bg-inverse align-items-center p-3">
-  <div class="text-danger align-items-center" align="center"> Hristo Ispirov</div>
+  <div class="text-danger align-items-center" align="center"> Copyright © 2018. ALL RIGHT RESERVER | Hristo , Genadi</div>
 
 </footer>
 

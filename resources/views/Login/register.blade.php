@@ -27,40 +27,24 @@
  <h1 id="regTitle">Register</h1>
  <div class="containerTran">
  <form method="POST">
-	<br>
+	<img src="Img/GreenReg.png" width="150px" height="150px" style="display:block;margin-left:auto;margin-right:auto;margin-top:40px;">
 	<span>Ussername :</span>
 	<input 
 		type="text" name="name" size="40"
 		placeholder="Ussrname..."
 		value="{{old('name')}}"
 	/>
-	<span>Phone :</span>
-	<input 
-		type="text" name="phone" size="40"
-		placeholder="Phone..."
-		value="{{old('email')}}"
-	/>
-
-	<span>Addres:</span>
-	<input 
-		type="text" name="addres" size="40"
-		placeholder="Addres..."
-		value="{{old('email')}}"
-	/>
-
 	<span>Email : </span>
 	<input 
 		type="text" name="email" size="40"
 		placeholder="Email..."
 		value="{{old('email')}}"
 	/>
-
 	<span>Password :</span>
 	<input 
 	type="password" name="password" size="40"
 	placeholder="Enter password..." 
 	/>
-
 	<span>Password again :</span>
 	<input 
 	type="password" name="passwordConfirmed" size="40"

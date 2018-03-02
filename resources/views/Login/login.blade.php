@@ -39,7 +39,7 @@
 	type="password" name="password" size="40"
 	placeholder="Enter password..." 
 	/>
-	<input style="background:#292b2c;border-color:black;margin-left:260px;"
+	<input style="background:#292b2c;border-color:black;margin-left:260px;color:#5cb85c;"
 		type="submit" class="btn btn-info" 
 		value="Submit"
 	/>
