@@ -15,3 +15,12 @@
 //     return view('index');
 // });
 Route::get('/','AdsController@Index')->name('ads.index');
+
+
+Route::get('/login',function() {
+	return view('Login.login');
+});
+
+Route::get('/register',function() {
+	return view('Login.register');
+});
